@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 68.5%;
+}
+
+main {
+    border: 5px solid black;
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    min-width: 800px;
+
+}
+
+section {
+    width: 70%;
+    display: flex;
+    background-color: blanchedalmond;
+    height: 80%;
+    margin: 0 auto; 
+    align-items: center;
+    justify-content: center;
+    min-width: 500px;
+    flex-wrap: wrap;
+}
+
+p {
+    width: 80%;
+    font-size: 3rem;
+    margin: 3rem;
+    padding: 5rem;
+    height: 50rem;
+
+}
+
+h1 {
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    font-size: 5rem;
+    border: 1px dotted white;
+    background-color: thistle;
+    position: relative;
+    top: -4rem;
+    padding: 2rem;
+}
